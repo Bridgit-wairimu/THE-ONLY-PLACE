@@ -1,0 +1,85 @@
+header{
+    background-color: slategrey;
+    margin: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+body{
+    background-color: wheat;
+}
+.nav{
+    margin: 5px;
+    padding: 10px;
+    font-weight: bolder;
+    color: black;
+}
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: black;
+    color:white;
+}
+.home,p{
+     text-align: center;
+     font-weight: bolder;
+     font-size: x-large;
+}
+h2{
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+}
+.about,p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+h3{
+   font-size: xx-large;
+   font-style: italic;
+   font-weight: bolder;
+   text-align: center;
+   color: black;
+}
+
+.services,p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+h4{
+   font-size: xx-large;
+   font-style: italic;
+   font-weight: bolder;
+   text-align: center;
+   color: black;
+}
+
+.contacts,p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+h5{
+   font-size: xx-large;
+   font-style: italic;
+   font-weight: bolder;
+   text-align: center;
+   color: black;
+}
+#footer{
+    background-color: slategrey;
+    margin: 5px;
+    padding: 10px;
+}
