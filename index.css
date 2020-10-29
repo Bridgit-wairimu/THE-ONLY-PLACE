@@ -28,48 +28,94 @@ a:hover{
     background-color: black;
     color:white;
 }
-.home,p{
+#home,p{
      text-align: center;
-     font-weight: bolder;
-     font-size: x-large;
+     font-weight: 500;
+     font-size: medium;
+     padding: 1rem;
+}
+h1{
+    font-family: 'Yesteryear', cursive, serif;
+     text-align: center;
 }
 h2{
-    font-size: xx-large;
-    font-style: italic;
-    font-weight: bolder;
-    text-align: center;
-    color: black;
+    font-family: 'Yesteryear', cursive, serif;
+     text-align: center;
 }
 .about,p{
     text-align: center;
-    font-weight: bolder;
-    font-size: x-large;
-}
+     font-weight: 500;
+     font-size: medium;
+    }
+
 h3{
-   font-size: xx-large;
-   font-style: italic;
-   font-weight: bolder;
-   text-align: center;
-   color: black;
+    font-family: 'Yesteryear', cursive, serif;
+    text-align: center;
 }
 
 .services,p{
     text-align: center;
-    font-weight: bolder;
-    font-size: x-large;
+     font-weight: 500;
+     font-size: medium;
 }
 h4{
-   font-size: xx-large;
-   font-style: italic;
-   font-weight: bolder;
-   text-align: center;
-   color: black;
+    font-family: 'Yesteryear', cursive, serif;
+    text-align: center;
 }
 
-.contacts,p{
+h1{
+    color: black;
+    font-size: 20px;
+    font-family: 'Yesteryear', cursive, serif;
     text-align: center;
-    font-weight: bolder;
-    font-size: x-large;
+}
+form{
+    background-size: contain;
+    border-radius: 20px;
+    padding: 10px;
+    height: 300px;
+    width: 600px;
+}
+input[type=name] {
+    width: 80%;
+    padding-bottom: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+input[type=email] {
+    width: 80%;
+    padding-bottom: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+input[type=password] {
+    width: 80%;
+    padding-bottom: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#message,::placeholder{
+    color: black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    margin: 5px;
+}
+button[type=submit] {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+}
+button[type=submit]:hover{
+    background-color: black;
 }
 h5{
    font-size: xx-large;
